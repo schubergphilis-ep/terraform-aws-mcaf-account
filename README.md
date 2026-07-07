@@ -2,7 +2,7 @@
 
 MCAF terraform module to create an AWS account using Control Tower's Account Factory.
 
-<!--- BEGIN_TF_DOCS --->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -35,7 +35,7 @@ MCAF terraform module to create an AWS account using Control Tower's Account Fac
 | id | The AWS account ID |
 | name | The AWS account name |
 
-<!--- END_TF_DOCS --->
+<!-- END_TF_DOCS -->
 
 ## License
 
@@ -54,47 +54,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-<!-- BEGIN_TF_DOCS -->
-## Requirements
-
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
-| <a name="requirement_mcaf"></a> [mcaf](#requirement\_mcaf) | >= 0.4.2 |
-
-## Providers
-
-| Name | Version |
-|------|---------|
-| <a name="provider_mcaf"></a> [mcaf](#provider\_mcaf) | >= 0.4.2 |
-
-## Modules
-
-No modules.
-
-## Resources
-
-| Name | Type |
-|------|------|
-| [mcaf_aws_account.default](https://registry.terraform.io/providers/schubergphilis/mcaf/latest/docs/resources/aws_account) | resource |
-
-## Inputs
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_account"></a> [account](#input\_account) | The name of the account | `string` | n/a | yes |
-| <a name="input_email"></a> [email](#input\_email) | Email address of the account | `string` | n/a | yes |
-| <a name="input_organizational_unit"></a> [organizational\_unit](#input\_organizational\_unit) | Organization unit to create the account in | `string` | n/a | yes |
-| <a name="input_sso_email"></a> [sso\_email](#input\_sso\_email) | The email address of the Control Tower SSO account | `string` | n/a | yes |
-| <a name="input_provisioned_product_name"></a> [provisioned\_product\_name](#input\_provisioned\_product\_name) | A custom name for the provisioned product | `string` | `null` | no |
-| <a name="input_sso_firstname"></a> [sso\_firstname](#input\_sso\_firstname) | The first name of the Control Tower SSO account | `string` | `"AWS Control Tower"` | no |
-| <a name="input_sso_lastname"></a> [sso\_lastname](#input\_sso\_lastname) | The last name of the Control Tower SSO account | `string` | `"Admin"` | no |
-
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| <a name="output_id"></a> [id](#output\_id) | The AWS account ID |
-| <a name="output_name"></a> [name](#output\_name) | The AWS account name |
-<!-- END_TF_DOCS -->
