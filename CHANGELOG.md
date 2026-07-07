@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/compare/v0.5.1...v1.0.0) (2026-07-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate MCAF provider source ([#2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/issues/2))
+
+### 🐛 Fixes
+
+* migrate MCAF provider source ([#2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/issues/2)) ([f172db9](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/commit/f172db963bbefeaaeac97af30ca29322d255ce7c))
+
 ## [0.5.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/compare/v0.5.0...v0.5.1) (2022-11-15)
 
 ## [0.5.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/compare/v0.4.0...v0.5.0) (2021-12-09)
@@ -26,4 +37,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-account/compare/v0.1.0...v0.1.1) (2019-12-03)
 
 ## 0.1.0 (2019-11-05)
-
